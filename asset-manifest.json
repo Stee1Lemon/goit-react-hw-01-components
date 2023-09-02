@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Stee1Lemon/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/Stee1Lemon/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "main.css": "/Stee1Lemon/goit-react-hw-01-components/static/css/main.6a1c36fa.css",
+    "main.js": "/Stee1Lemon/goit-react-hw-01-components/static/js/main.fcf5333d.js",
     "index.html": "/Stee1Lemon/goit-react-hw-01-components/index.html",
-    "main.7acaea2f.css.map": "/Stee1Lemon/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Stee1Lemon/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+    "main.6a1c36fa.css.map": "/Stee1Lemon/goit-react-hw-01-components/static/css/main.6a1c36fa.css.map",
+    "main.fcf5333d.js.map": "/Stee1Lemon/goit-react-hw-01-components/static/js/main.fcf5333d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.6a1c36fa.css",
+    "static/js/main.fcf5333d.js"
   ]
 }
