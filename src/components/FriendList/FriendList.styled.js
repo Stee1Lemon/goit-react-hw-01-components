@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const FriendsList = styled('ul')(() => {
   return {
-    margin: 30,
     display: 'flex',
     flexDirection: 'column',
     gap: 10,

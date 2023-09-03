@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const ProfileWrap = styled('div')(() => {
   return {
     maxWidth: 270,
-    margin: '50px auto 50px',
     textAlign: 'center',
     backgroundColor: '#bfd8ff',
     padding: 30,
