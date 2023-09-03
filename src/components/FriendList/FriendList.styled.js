@@ -24,12 +24,12 @@ export const FriendItem = styled('li')(() => {
   };
 });
 
-export const FriendStatus = styled('span')(({ isOnline }) => {
+export const FriendStatus = styled('span')(({ isonline }) => {
   return {
     display: 'block',
     width: 20,
     height: 20,
     borderRadius: '50%',
-    backgroundColor: isOnline ? 'green' : 'red',
+    backgroundColor: isonline === 'true' ? 'green' : 'red',
   };
 });
