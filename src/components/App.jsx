@@ -6,7 +6,8 @@ import data from '../data.json';
 
 export const App = () => {
   return (
-    <div>
+    <>
+      <div>hello</div>
       <Profile
         username={userData.username}
         tag={userData.tag}
@@ -17,7 +18,7 @@ export const App = () => {
         likes={userData.stats.likes}
       />
       <Statistics title={data.title} stats={data} />
-    </div>
+    </>
   );
 };
 
