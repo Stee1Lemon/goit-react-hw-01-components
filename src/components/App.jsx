@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types';
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
+import { Friends } from './FriendList/FriendList';
 import userData from '../user.json';
 import data from '../data.json';
+import friends from '../friends.json';
 
 export const App = () => {
   return (
@@ -17,6 +19,7 @@ export const App = () => {
         likes={userData.stats.likes}
       />
       <Statistics title={data.title} stats={data} />
+      <Friends friends={friends} />
     </>
   );
 };

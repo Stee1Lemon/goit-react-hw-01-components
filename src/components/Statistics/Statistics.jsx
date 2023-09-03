@@ -11,7 +11,7 @@ export const Statistics = ({ title = 'Upload stats', stats }) => {
       <StatisticsSection>
         <StatisticsTitle>{title}</StatisticsTitle>
 
-        <StatisticsList className="stat-list">
+        <StatisticsList>
           {stats.map(stat => {
             return (
               <StatisticsItem
