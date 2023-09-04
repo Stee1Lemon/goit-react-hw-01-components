@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import {
   ProfileWrap,
   Description,
@@ -14,9 +15,7 @@ export const Profile = ({
   tag,
   location,
   avatar,
-  followers,
-  views,
-  likes,
+  stats: { followers, views, likes },
 }) => {
   return (
     <>
@@ -45,4 +44,16 @@ export const Profile = ({
       </ProfileWrap>
     </>
   );
+};
+
+Profile.propTypes = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }).isRequired,
 };
